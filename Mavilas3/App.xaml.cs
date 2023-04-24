@@ -9,6 +9,7 @@ namespace Mavilas3
         public App()
         {
             InitializeComponent();
+            //habilito la navegacion
 
             MainPage = new NavigationPage(new Inicio ());
         }

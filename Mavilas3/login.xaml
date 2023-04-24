@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Mavilas3.Registro">
+             x:Class="Mavilas3.login">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="REGISTRO" FontSize="24" HorizontalTextAlignment="Center"/>
-            <Label x:Name="lblDatouno" FontSize="20" />
-            <Entry x:Name="txtDatoDos" />
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

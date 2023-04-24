@@ -4,11 +4,13 @@
              x:Class="Mavilas3.Inicio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Inicio" FontSize="24" HorizontalTextAlignment="Center"/>
-            <Entry x:Name="txtDato" Placeholder="ingrese un dati"/>
-            <Entry x:Name="txtDatoDos" Placeholder="ingrese un dati"/>
+            <Image Source="imh_israel.png" WidthRequest="100" HeightRequest="100"/>
+                <Label Text="INICIO" FontSize="24" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtDatouno" Placeholder="ingrese un dato"/>
+            <Entry x:Name="txtDatoDos" Placeholder="ingrese un dato"/>
             <Button x:Name="btnAbrir" Text="ABRIR VENTANA DOS" Clicked="btnAbrir_Clicked">
             </Button>
+            <ImageButton Source="imG_BOT.png" WidthRequest="20" HeightRequest="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

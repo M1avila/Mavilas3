@@ -19,8 +19,10 @@ namespace Mavilas3
 
         private void btnAbrir_Clicked(object sender, EventArgs e)
         {
+            string datoUno=txtDatouno.Text;
+            string datoDos = txtDatoDos.Text;
             //abrir ventana registro
-            Navigation.PushAsync(new Registro());
+            Navigation.PushAsync(new Registro(datoUno,datoDos));
         }
     }
 }
